@@ -1,0 +1,56 @@
+/* Font family redeclared */
+*{margin: 0 0;}
+
+.merriweather-font {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Shared CSS styles portion */
+main {
+    max-width: 924px;
+    margin: 0 auto;
+}
+main section{
+    margin-bottom: 84px ;
+}
+
+/* Banner Section sytles */
+.new-year-banner {
+    height: 420px;
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url('/Assets/images/Banner\ Image.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    border-radius: 12px;
+
+
+}
+.new-year-container{
+    width: 442px;
+}
+
+.new-year-title {
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    text-align: center;
+}
+.new-year-des{
+    color:white;
+    font-size:50px;
+    font-weight: 900;
+    text-align: center;
+}
