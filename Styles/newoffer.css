@@ -114,7 +114,7 @@ main section {
     margin-left: 88px;
     margin-right: 96px;
     gap: 28px;
-    
+
 }
 
 .party-title {
@@ -145,8 +145,45 @@ main section {
 }
 
 .party-img {
-     width: 245px;
-     height: 324px;
-  
+    width: 245px;
+    height: 324px;
 
+
+}
+
+/*time schedule section  */
+
+.schedule-section {
+    height: 310px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.schedule{
+    font-size: 22px;
+    font-weight: 600;
+    color:rgb(7, 2, 17);
+    margin-bottom: 10px;
+}
+.schedule span{
+    color:rgb(255, 0, 0);
+}
+.btn-div{
+    text-align: center;
+    margin-top: 33px;
+}
+.btn{
+    padding: 12px 22px;
+    background-color:rgb(255, 0, 0);
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius:5px ;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
 }
