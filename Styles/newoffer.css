@@ -1,5 +1,7 @@
 /* Font family redeclared */
-*{margin: 0 0;}
+* {
+    margin: 0 0;
+}
 
 .merriweather-font {
     font-family: "Merriweather", serif;
@@ -20,8 +22,9 @@ main {
     max-width: 924px;
     margin: 0 auto;
 }
-main section{
-    margin-bottom: 84px ;
+
+main section {
+    margin-bottom: 84px;
 }
 
 /* Banner Section sytles */
@@ -38,7 +41,8 @@ main section{
 
 
 }
-.new-year-container{
+
+.new-year-container {
     width: 442px;
 }
 
@@ -48,38 +52,101 @@ main section{
     font-weight: 400;
     text-align: center;
 }
-.new-year-des{
-    color:white;
-    font-size:50px;
+
+.new-year-des {
+    color: white;
+    font-size: 50px;
     font-weight: 900;
     text-align: center;
 }
 
 /* advertisement section styles */
-.adverstisements{
+.adverstisements {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.ad-img{
+
+.ad-img {
     width: 560px;
 }
-.ad-offer{
+
+.ad-offer {
     font-size: 60px;
     font-weight: bold;
     color: red;
     margin-bottom: 30px;
 }
-.ad-title{
+
+.ad-title {
     font-size: 16px;
     font-weight: 500;
     color: red;
     margin-bottom: 12px;
 }
-.ad-subtitle{
-     font-size: 33px;
-     font-weight:700;
-     margin-bottom: 30px;
+
+.ad-subtitle {
+    font-size: 33px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+/* midnight party sections styles */
+.midnight-party {
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url('/Assets/images/Vectorrr.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.party-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 88px;
+    margin-right: 96px;
+    gap: 28px;
+    
+}
+
+.party-title {
+    width: 450px;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 16px;
+
+}
+
+.party-des {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 33px;
+}
+
+.join-party {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 22px;
+}
+
+.join-party a {
+    text-decoration: none;
+    color: white;
+}
+
+.party-img {
+     width: 245px;
+     height: 324px;
+  
+
 }
