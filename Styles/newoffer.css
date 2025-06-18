@@ -162,28 +162,90 @@ main section {
     align-items: center;
     text-align: center;
 }
-.schedule{
+
+.schedule {
     font-size: 22px;
     font-weight: 600;
-    color:rgb(7, 2, 17);
+    color: rgb(7, 2, 17);
     margin-bottom: 10px;
 }
-.schedule span{
-    color:rgb(255, 0, 0);
+
+.schedule span {
+    color: rgb(255, 0, 0);
 }
-.btn-div{
+
+.btn-div {
     text-align: center;
     margin-top: 33px;
 }
-.btn{
+
+.btn {
     padding: 12px 22px;
-    background-color:rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
     text-align: center;
     color: white;
     font-size: 15px;
     border: none;
-    border-radius:5px ;
+    border-radius: 5px;
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
+}
+
+/* best offer comming soon section styles */
+.best-offer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.best-offer-container{
+    width: 275px;
+    /* margin-right: 49px; */
+}
+
+.best-title {
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(255, 0, 0);
+    margin-bottom: 12px;
+}
+
+.best-subtitle {
+    font-size: 33px;
+    font-weight: 900;
+    color: rgb(7, 2, 17);
+    margin-bottom: 16px;
+}
+
+.offer-des {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.offer-image {
+    width: 324px;
+    height: 324px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 15px solid rgb(255, 0, 0);
+    padding: 34px;
+}
+
+.offer-year{
+    font-size: 33px;
+    font-weight: 700;
+    color: red;
+    margin-bottom: 12px;
+    margin-top: 78px;
+    
+}
+.offer-time-container{
+    width: 193px;
+}
+.offer-time-img{
+    margin-top: 32px;
+    width: 98px;
+    height: 98px;
 }
