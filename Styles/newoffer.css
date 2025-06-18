@@ -54,3 +54,32 @@ main section{
     font-weight: 900;
     text-align: center;
 }
+
+/* advertisement section styles */
+.adverstisements{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ad-img{
+    width: 560px;
+}
+.ad-offer{
+    font-size: 60px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 30px;
+}
+.ad-title{
+    font-size: 16px;
+    font-weight: 500;
+    color: red;
+    margin-bottom: 12px;
+}
+.ad-subtitle{
+     font-size: 33px;
+     font-weight:700;
+     margin-bottom: 30px;
+}
