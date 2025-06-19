@@ -249,3 +249,58 @@ main section {
     width: 98px;
     height: 98px;
 }
+
+/* Holiday sales section */
+.holiday-sales-section{
+    text-align: center;
+}
+.sales-title{
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(7, 2, 17);
+  margin-bottom: 12px;
+}
+.sales-main-title{
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(7, 2, 17);
+    margin-bottom: 20px;
+
+}
+.sales-main-title span{
+    color: red;
+}
+.sales-des{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color:rgba(7, 2, 17, 0.6);
+    margin-bottom: 45px;
+}
+
+.gift-container{
+  height:463px ;
+
+  background-image: url('/Assets/images/Rectangle\ 2.png');
+  background-size:auto 160px;
+  background-repeat: no-repeat;
+  background-position:bottom;
+  position:relative;
+  
+
+}
+.gift{
+    width: 557px;
+    height:463px ;
+    position: absolute;
+    right:408px;
+    
+}
+.gift-1{
+    position: absolute;
+    width: 213px;
+    height: 213px;
+    left: 688px;
+    top:53px;
+    
+}
