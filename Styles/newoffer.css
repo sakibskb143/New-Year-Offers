@@ -30,7 +30,7 @@ main section {
 /* Banner Section sytles */
 .new-year-banner {
     height: 420px;
-    background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url('/Assets/images/Banner\ Image.png');
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url('/resources/images/Banner\ Image.png');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -95,7 +95,7 @@ main section {
 
 /* midnight party sections styles */
 .midnight-party {
-    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url('/Assets/images/Vectorrr.png');
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url('/resources/images/Vectorrr.png');
     background-size: cover;
     background-position: center;
     border-radius: 12px;
@@ -288,7 +288,7 @@ main section {
 .gift-container {
     height: 463px;
 
-    background-image: url('/Assets/images/Rectangle\ 2.png');
+    background-image: url('/resources/images/Rectangle\ 2.png');
     background-size: auto 160px;
     background-repeat: no-repeat;
     background-position: bottom;
