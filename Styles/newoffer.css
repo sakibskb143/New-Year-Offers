@@ -197,9 +197,10 @@ main section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+
 }
-.best-offer-container{
+
+.best-offer-container {
     width: 275px;
     /* margin-right: 49px; */
 }
@@ -233,74 +234,146 @@ main section {
     padding: 34px;
 }
 
-.offer-year{
+.offer-year {
     font-size: 33px;
     font-weight: 700;
     color: red;
     margin-bottom: 12px;
     margin-top: 78px;
-    
+
 }
-.offer-time-container{
+
+.offer-time-container {
     width: 193px;
 }
-.offer-time-img{
+
+.offer-time-img {
     margin-top: 32px;
     width: 98px;
     height: 98px;
 }
 
 /* Holiday sales section */
-.holiday-sales-section{
+.holiday-sales-section {
     text-align: center;
 }
-.sales-title{
-  font-size: 16px;
-  font-weight: 500;
-  color: rgb(7, 2, 17);
-  margin-bottom: 12px;
+
+.sales-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(7, 2, 17);
+    margin-bottom: 12px;
 }
-.sales-main-title{
+
+.sales-main-title {
     font-size: 50px;
     font-weight: 900;
     color: rgb(7, 2, 17);
     margin-bottom: 20px;
 
 }
-.sales-main-title span{
+
+.sales-main-title span {
     color: red;
 }
-.sales-des{
+
+.sales-des {
     text-align: center;
     font-size: 14px;
     font-weight: 500;
-    color:rgba(7, 2, 17, 0.6);
+    color: rgba(7, 2, 17, 0.6);
     margin-bottom: 45px;
 }
 
-.gift-container{
-  height:463px ;
+.gift-container {
+    height: 463px;
 
-  background-image: url('/Assets/images/Rectangle\ 2.png');
-  background-size:auto 160px;
-  background-repeat: no-repeat;
-  background-position:bottom;
-  position:relative;
-  
+    background-image: url('/Assets/images/Rectangle\ 2.png');
+    background-size: auto 160px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+
 
 }
-.gift{
+
+.gift {
     width: 557px;
-    height:463px ;
+    height: 463px;
     position: absolute;
-    right:408px;
-    
+    right: 408px;
+
 }
-.gift-1{
+
+.gift-1 {
     position: absolute;
     width: 213px;
     height: 213px;
     left: 688px;
-    top:53px;
-    
+    top: 53px;
+
+}
+
+/* Awesome portfolio designs */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 33px;
+}
+
+.awesome-image {
+
+    width: 297px;
+    height: 315px;
+    border-radius: 12px;
+}
+
+/* newsletter-section design */
+.newsletter-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+.newsletter-container{
+    width: 627px ;
+    margin-top: 56px;
+}
+#awesome-email {
+    font-size: 13px;
+    color: rgba(7, 2, 17, 0.3);
+    font-weight: 400;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 21px;
+    border-top-left-radius: 34px;
+    border-bottom-left-radius: 34px;
+    width: 313px;
+    border: none;
+}
+
+#subscribe {
+    border-radius: 0px 50px 50px 0px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background: rgb(255, 0, 0);
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    padding-left: 39px;
+    padding-right: 39px;
+    width: 152px;
+    color: white;
+    border: none;
+
+}
+
+.awesome-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 56px;
+    margin-top: 33px;
 }
