@@ -337,10 +337,12 @@ main section {
     text-align: center;
     background-color: rgba(255, 0, 0, 0.05);
 }
-.newsletter-container{
-    width: 627px ;
+
+.newsletter-container {
+    width: 627px;
     margin-top: 56px;
 }
+
 #awesome-email {
     font-size: 13px;
     color: rgba(7, 2, 17, 0.3);
@@ -376,4 +378,66 @@ main section {
     align-items: center;
     margin-bottom: 56px;
     margin-top: 33px;
+}
+
+/* footer sections styles */
+.footer {
+    background: rgb(7, 2, 17);
+    padding: 84px 98px;
+
+}
+
+.first-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 33px;
+    padding-right: 94px;
+
+}
+
+.first-des {
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+}
+
+.first-number {
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+}
+
+.first-div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.second-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    padding: 33px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.second-part>img {
+    width: 45px;
+    height: 45px;
+}
+
+.third-part {
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    padding-top: 35px;
 }
